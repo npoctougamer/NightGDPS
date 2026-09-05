@@ -2416,9 +2416,8 @@ const firebaseConfig = {
             }
             const tabs = {
                 demons: 'tabDemonsBtn', challenges: 'tabChallengesBtn',
-                impossible: 'tabImpossibleBtn', creators: 'tabCreatorsBtn', 
-                players: 'tabPlayersBtn', creatortop: 'tabCreatorTopBtn',
-                playersearch: 'tabPlayerSearchBtn'
+                creators: 'tabCreatorsBtn', players: 'tabPlayersBtn',
+                creatortop: 'tabCreatorTopBtn', playersearch: 'tabPlayerSearchBtn'
             };
             Object.entries(tabs).forEach(([key, btnId]) => {
                 const btn = document.getElementById(btnId);
